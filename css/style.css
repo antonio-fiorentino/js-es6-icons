@@ -1,0 +1,27 @@
+.container{
+}
+
+.riga1{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.riga2{
+  display: flex;
+  justify-content: space-between;
+}
+.riga3{
+  display: flex;
+  justify-content: space-between;
+}
+.riga4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocco{
+  height: 50px;
+  width: 150px;
+  background-color: grey;
+}
