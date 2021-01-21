@@ -114,3 +114,8 @@ icon.forEach((element) => {
   </div>
   `
 });
+
+// - Definire un array di colori e associare ad ogni tipo di icona un colore.
+// - Visualizzare le icone di colore diverso in base al tipo.
+
+const colors = ['blue', 'orange', 'purple'];
