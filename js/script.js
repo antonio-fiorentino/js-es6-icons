@@ -55,51 +55,51 @@ const icon = [
   {
     name: 'carrot',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'vegetable',
     family: 'fas',
   },
   {
     name: 'apple-alt',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'vegetable',
     family: 'fas',
   },
 
   {
     name: 'lemon',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'vegetable',
     family: 'fas',
   },
   {
     name: 'pepper-hot',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'vegetable',
     family: 'fas',
   },
   {
     name: 'user-astronaut',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'user',
     family: 'fas',
   },
   {
     name: 'user-graduate',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'user',
     family: 'fas',
   },
   {
     name: 'user-ninja',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'user',
     family: 'fas',
   },
 
   {
     name: 'user-secret',
     prefix: 'fa-',
-    type: 'animal',
+    type: 'user',
     family: 'fas',
   },
 ]
@@ -115,7 +115,31 @@ icon.forEach((element) => {
   `
 });
 
+// Milestone 2:
 // - Definire un array di colori e associare ad ogni tipo di icona un colore.
 // - Visualizzare le icone di colore diverso in base al tipo.
 
 const colors = ['blue', 'orange', 'purple'];
+
+function pass(icons){
+  icon.forEach((element) => {
+    const {family, type, prefix, name} = element
+
+    switch (icon) {
+      case type=== 'animal':
+        icon.push('colors':colors[0]);
+        break;
+        case ${type} === 'vegetable':
+          icon.push('colors':colors[1]})
+          break;
+        case ${type} === 'user':
+          icon.push('colors':colors[2])
+          break;
+      default:
+
+    }
+  });
+
+}
+
+function print()
